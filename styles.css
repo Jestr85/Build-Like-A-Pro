@@ -27,6 +27,17 @@ section {
     background-color: rgb(245, 245, 245)
 }
 
+.container {
+    padding: 50px, 0;
+}
+
+.row {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
 .red {
     color: rgb(196, 18, 18);
 }
@@ -178,4 +189,14 @@ nav {
 
 .fa-adjust {
     font-size: 20px;
+}
+
+
+/* PROJECTS */
+
+
+.section__title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 60px;
 }
