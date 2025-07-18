@@ -41,6 +41,7 @@ section {
 
 .red {
     color: rgb(196, 18, 18);
+    font-weight: bold
 }
 
 .link__hover-effect {
@@ -198,7 +199,7 @@ nav {
 
 #personal-logo {
     filter: invert(1);
-    width: 50px;
+    width: 150px;
     height: 50px;
 }
 
@@ -218,6 +219,77 @@ nav {
 
 .fa-adjust {
     font-size: 20px;
+}
+
+
+/* MODAL */
+
+
+.modal {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    max-width: 1100px;
+    height: 700px;
+    box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+}
+
+.modal__half {
+    width: 50%;
+    padding: 40px 72px;
+}
+
+.modal__about {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal__languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.modal__language {
+    width: 25%;
+    padding: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal__language:hover {
+    transform: scale(0.9)
+}
+
+.modal__language--img {
+    width: 100%
+}
+
+.modal__contact {
+    background-color: #242424;
+    color: white;
+}
+
+.modal__title {
+    font-size: 26px;
+}
+
+.modal__sub-title {
+    margin: 12px 0 24px 0;
+}
+
+.modal__para {
+    margin-bottom: 12px;
+    line-height: 1.75;
 }
 
 
