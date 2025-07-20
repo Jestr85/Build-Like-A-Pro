@@ -1,6 +1,14 @@
-// template_y1l7be4
-// service_5y6x30m
-// UDZbpREMwO5XtJtWR
+let contrastToggle = false
+function toggleContrast() {
+    contrastToggle = !contrastToggle
+    if (contrastToggle) {
+        document.body.classList += " dark-theme"
+    }
+    else {
+        document.body.classList.remove("dark-theme")
+    }
+    
+}
 
 async function contact(event) {
     event.preventDefault()
